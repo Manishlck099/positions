@@ -15,7 +15,7 @@ body{
     border-style: solid;*/
     height: 700px;
     width: 100%;
-    position:relative
+    position:relative;
 }
 h1{
     position: relative;
@@ -54,8 +54,8 @@ p{
     }
     .badal3{
         
-        position: relative;
-        top: 100px;
+        position: absolute;
+        right: 300px;
     
     }
 
