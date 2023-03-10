@@ -7,29 +7,45 @@ body{
 
 .box1{
     background-color:lightblue;
-    width: 100%;
-    position:relative;
+  /*  border-width: 10px;
+   border-color: black;
+    border-style: solid;*/
+     position:relative;
+     padding-top: 100px;
+     
 }
 h1{
-    margin-top:10px;
-    font-family: 'Anton', sans-serif;
-    font-size: xx-large;
 
-    p{
-    width: 30%;
-    font-family: 'Gentium Book Basic', serif;
-    font-size: large;
+    margin-top:0px;
+
+    font-family: 'Anton', sans-serif;
+   font-size: 90px;
+}
+
+/*
+.underline{
+    text-decoration: underline;
+    width: 20%;
+    font-size: 4.62em;
+}*/
+.hello{
+    font-size: 90px;
     }
-    span{
-        width: 20%;
-        display: inline-block;
-        font-size: x-large;
-    }        
+    /*p{
+        /*display: block;*/
+       /* width: 20%;
+        display: inline-block;*/
+   /* font-size: x-large;*/
+          
+   /* p{
+        width: 10%;
+        margin:20px auto;
+    }*/
     .badal{
         padding-top: 10px;
         position: absolute;
         right:300px;
-        top:10px;
+        top:30px;
     }
     .badal2{
         
@@ -37,34 +53,30 @@ h1{
        left: 300px;
         bottom: 350px;
     }
+    /*.badal3{
+        
+        position: absolute;
+        right:300px;
+        bottom:10px;
     
-    
-    
+    }*/
+
 .middle-container{
-    
-    
-   
     width: 100%;
-  
-
-    padding: 20px;
-
-    position:relative;
-   
+  padding: 20px;
+position:relative;  
+background-color: blue; 
 }
+
 img{
     border-radius: 60px 60px;
-
 }
 
 .bottom-container{
-    
-    border-width: 10px;
-   
+      border-width: 10px;
     width: 100%;
     /*margin-left: 440px;*/
-    
-    padding: 20px;
+     padding: 20px;
     position: absolute;
     
 
@@ -76,12 +88,7 @@ img{
     
 }
 
-.underline{
-    text-decoration: underline;
-    display: block;
-    width: 20%;
-    font-size: x-large;
-}
+
 
 
    /* background-color: blueviolet;*/
@@ -110,4 +117,9 @@ p{
     border: width 5px; 
     background-color: aquamarine;
     border-color: black;
+}
+
+.profile{
+    background-color:brown;
+    position: relative;
 }
